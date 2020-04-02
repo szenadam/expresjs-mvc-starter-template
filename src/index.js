@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const dotenvFile = require("dotenv").config();
+if (dotenvFile.error) throw dotenvFile.error;
+const port = process.env.PORT;
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
