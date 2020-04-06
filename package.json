@@ -4,7 +4,8 @@
   "description": "Starter template for an ExpressJS MVC application",
   "main": "src/index.js",
   "scripts": {
-    "start:dev": "nodemon"
+    "start:dev": "nodemon",
+    "init": "eslint --init"
   },
   "keywords": [
     "expressjs",
@@ -30,6 +31,7 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "nodemon": "^2.0.3"
   }
 }
