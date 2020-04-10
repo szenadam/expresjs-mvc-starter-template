@@ -33,5 +33,5 @@ npm run lint
 ## Fix prettier errors
 
 ```sh
-"prettier --write src/"
+npm run style:fix
 ```
