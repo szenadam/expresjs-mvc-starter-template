@@ -5,6 +5,7 @@ if (dotenvFile.error) throw dotenvFile.error;
 const port = process.env.PORT;
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const morgan = require('morgan');
 
 // Load Controllers
 const homeController = require('./controllers/HomeController');
@@ -13,6 +14,7 @@ const homeController = require('./controllers/HomeController');
 app.set('view engine', 'pug');
 app.use(bodyParser.json());
 app.use(cookieParser());
+app.use(morgan('combined'));
 
 app.get('/', homeController);
 
