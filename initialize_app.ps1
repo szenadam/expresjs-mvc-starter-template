@@ -1,3 +1,10 @@
+
+if ($args.Length = = 0) {
+  Write-Host "No directory name supplied"
+  Write-Host "Usage: .\initialize_app.ps1 dirname"
+  exit -1
+}
+
 $dirname = "..\" + $args[0]
 
 # Recreate directory
