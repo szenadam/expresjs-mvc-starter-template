@@ -19,6 +19,20 @@ Starter template for an ExpressJS MVC application.
 - ESLint for linting
 - Prettier for code style consistency
 
+## Usage
+
+On windows open a Powershell terminal and run:
+
+```pwsh
+.\initialize_app.ps1 new-app-dir-name
+```
+
+On Linux macOS:
+
+```sh
+bash initialize_app.sh new-app-dir-name
+```
+
 ## Start in development mode
 
 1. `npm install`
