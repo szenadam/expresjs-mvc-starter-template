@@ -31,7 +31,8 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "pug": "^2.0.4",
-    "acorn": "7.1.1"
+    "acorn": "7.1.1",
+    "kind-of": "6.0.3"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
