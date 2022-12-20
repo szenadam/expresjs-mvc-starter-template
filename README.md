@@ -2,7 +2,7 @@
 
 ## Description
 
-Starter template for an ExpressJS MVC application.
+Starter template for an ExpressJS MVC application, using Pug for a view engine.
 
 ## Requirements
 
@@ -13,11 +13,11 @@ Starter template for an ExpressJS MVC application.
 
 ## Libraries used
 
-- ExpressJS
-- Nodemon for watching code change
-- Dotenv for loading environment variables
-- ESLint for linting
-- Prettier for code style consistency
+- **ExpressJS**
+- **Nodemon** for watching code change
+- **Dotenv** for loading environment variables
+- **ESLint** for linting
+- **Prettier** for code style consistency
 
 ## Usage
 
